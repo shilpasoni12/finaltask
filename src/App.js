@@ -24,7 +24,7 @@ class Login extends Component {
 
     render() {
         return (
-            <div className="main" style="<img src="Design-3.jpg" width="140px" height="140px"/>">
+            <div className="main">
         <div id="login">
           <p>LOG IN</p>
           <input type="email" id="mail" ref="email" placeholder="Enter Email ID"/>
