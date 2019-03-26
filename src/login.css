@@ -1,0 +1,78 @@
+.main
+{
+background-color:grey;
+
+background-image: url("black.jpg");
+height:all;
+text-align: center;
+height: 250px;
+padding-top: 300px;
+padding-bottom: 200px;
+}
+.heading
+{
+	color: white;
+}
+/*.login
+{
+	background-color: white;
+	width: 200px;
+	height: 100px;
+}*/
+.nav
+{
+	overflow: hidden;
+  background-color: blue;
+  padding: 5px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+
+
+}
+.body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: red;
+  height: 60px;
+  margin-top: -280px;
+}
+/*.topnav  {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}*/
+
+
+.searchfield
+{
+margin-top: 30px;
+  height: 30px;
+  border-radius: 4px;
+  position: relative;
+  background-color:grey;
+  transition: 0.3s all;
+}
+.searchfield:hover {
+  background-color:blue;
+  box-shadow: grey;
+}
+/*.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}*/
